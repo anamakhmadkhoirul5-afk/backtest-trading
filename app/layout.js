@@ -18,8 +18,13 @@ export const metadata = {
   description: "Platform trading bot forex dengan backtest engine dan strategi scalping profesional. Dapatkan profit konsisten dengan AI-powered trading strategies.",
   keywords: "forex trading, trading bot, backtest, scalping, forex strategy, automated trading",
   author: "ForexBot Pro Team",
-  viewport: "width=device-width, initial-scale=1, maximum-scale=1",
 };
+
+export const viewport = {
+  width: 'device-width',
+  initialScale: 1,
+  maximumScale: 1,
+}
 
 export default function RootLayout({ children }) {
   return (
